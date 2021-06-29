@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eOrleansShopContainer.Inven
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eOrleansShopContainer.Server", "src\eOrleansShopContainer.Server\eOrleansShopContainer.Server.csproj", "{C77F23E5-2F61-434F-B5C0-8E57304A3DA8}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eOrleansShopContainer.Ordering.Domain", "src\eOrleansShopContainer.Ordering.Domain\eOrleansShopContainer.Ordering.Domain.csproj", "{E8C24C82-DF14-4773-9D74-5D990A7E203D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,12 +33,17 @@ Global
 		{C77F23E5-2F61-434F-B5C0-8E57304A3DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C77F23E5-2F61-434F-B5C0-8E57304A3DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C77F23E5-2F61-434F-B5C0-8E57304A3DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8C24C82-DF14-4773-9D74-5D990A7E203D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C24C82-DF14-4773-9D74-5D990A7E203D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8C24C82-DF14-4773-9D74-5D990A7E203D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8C24C82-DF14-4773-9D74-5D990A7E203D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B82C056E-DF2F-4F0E-B65B-60658AC4917D} = {A55C9646-938F-4D3B-A204-06EED0A88640}
+		{E8C24C82-DF14-4773-9D74-5D990A7E203D} = {4CC7B0BF-2129-4F88-BE59-3E14F1EFB8C2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1508C1D8-6DF4-4AE8-A5F0-61507F2EF48C}
